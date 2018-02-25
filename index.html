@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			.a{
+				width:600px;
+				height: 50px;
+				border: 2px solid #000;
+				margin: 200px auto;
+			}
+			.b{
+				width: 0px;
+				height: 50px;
+				background: red;
+				animation-name: we;
+				animation-duration: 1s;
+				animation-delay: 0s;
+				animation-fill-mode: forwards;
+				animation-iteration-count: 3;
+				
+			}
+			@keyframes we{
+				from{width: 0px;}
+				to{width: 600px;}
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="a">
+             <div class="b">
+             </div>
+        </div>
+	</body>
+</html>
